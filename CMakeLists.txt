@@ -22,7 +22,7 @@ option(BUILD_WITHOUT_LAPACK "Do not build LAPACK and LAPACKE (Only BLAS or CBLAS
 
 option(BUILD_LAPACK_DEPRECATED "When building LAPACK, include also some older, deprecated routines" ON)
 
-option(BUILD_TESTING "Build LAPACK testsuite when building LAPACK" ON)
+option(BUILD_TESTING "Build LAPACK testsuite when building LAPACK" OFF)
 
 option(C_LAPACK "Build LAPACK from C sources instead of the original Fortran" OFF)
 

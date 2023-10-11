@@ -96,7 +96,7 @@ message(WARNING "CMake support is experimental. It does not yet support all buil
 include("${PROJECT_SOURCE_DIR}/cmake/utils.cmake")
 include("${PROJECT_SOURCE_DIR}/cmake/system.cmake")
 
-set(OpenBLAS_LIBNAME openblas${SUFFIX64_UNDERSCORE})
+set(OpenBLAS_LIBNAME native_openblas${SUFFIX64_UNDERSCORE})
 
 set(BLASDIRS interface driver/level2 driver/level3 driver/others)
 
